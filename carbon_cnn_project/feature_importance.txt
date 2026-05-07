@@ -1,0 +1,8 @@
+Top Features Affecting Carbon Emissions (Mean Absolute SHAP):
+------------------------------------------------------------
+1. Industry Level (0.0601)
+2. Vehicle Count (0.0581)
+3. Humidity (0.0271)
+4. Energy Usage (0.0267)
+5. Temperature (0.0227)
+6. Wind Speed (0.0148)

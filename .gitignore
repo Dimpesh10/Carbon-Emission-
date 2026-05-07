@@ -1,0 +1,41 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Keras model files (large binaries)
+*.keras
+*.h5
+*.pb
+
+# NumPy arrays (large binary data)
+*.npy
+*.npz
+
+# Scikit-learn scalers
+*.save
+
+# Large CSV datasets
+*.csv
+
+# Logs and outputs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ZIP backups
+*.zip
+
+# Claude memory (private)
+.claude/memory/

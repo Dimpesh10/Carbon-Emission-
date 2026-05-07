@@ -1,0 +1,19 @@
+=== Explainable AI using SHAP (Transformer Encoder) ===
+
+1. Why needed:
+Neural networks are typically 'Black Boxes'. SHAP allows us to see exactly which features drove the carbon emission predictions up or down.
+
+2. How used:
+We used shap.GradientExplainer on the trained Transformer Encoder, comparing the test samples against a background baseline of 100 training samples.
+
+3. Results (Top 3 Drivers):
+  - Industry Level
+  - Vehicle Count
+  - Humidity
+
+4. Interpretation:
+The model prediction is mainly influenced by Industry Level and Vehicle Count.
+
+5. Dataset Comparison:
+  - Average Dataset Emission (Scaled baseline): -0.3696
+  - Current Sample Emission (Scaled): 0.7955
