@@ -39,3 +39,5 @@ Thumbs.db
 
 # Claude memory (private)
 .claude/memory/
+.claude/
+.claude/
